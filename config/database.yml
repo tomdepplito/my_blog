@@ -1,0 +1,14 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: my_blog_development
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: my_blog_test
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: my_blog_production
