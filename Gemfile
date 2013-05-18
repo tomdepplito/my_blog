@@ -5,6 +5,7 @@ gem 'jquery-rails'
 gem 'pg'
 gem 'thin'
 gem 'disqus'
+gem 'skeleton-rails'
 
 
 group :assets do

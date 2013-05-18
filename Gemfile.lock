@@ -114,6 +114,7 @@ GEM
     shoulda-context (1.0.0)
     shoulda-matchers (1.2.0)
       activesupport (>= 3.0.0)
+    skeleton-rails (0.1.0)
     sprockets (2.2.2)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -146,5 +147,6 @@ DEPENDENCIES
   rspec-rails (~> 2.0)
   sass-rails (~> 3.2.3)
   shoulda
+  skeleton-rails
   thin
   uglifier (>= 1.0.3)
