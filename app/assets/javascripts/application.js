@@ -13,3 +13,19 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+function hideDiv() {
+  if ($(window).width() < 770) {
+    $('.hideable').hide();
+  } else {
+    $('.hideable').show();
+  }
+}
+
+$(document).ready(function () {
+  hideDiv();
+
+  $(window).resize(function() {
+    hideDiv();
+  });
+});
