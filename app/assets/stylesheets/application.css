@@ -9,9 +9,6 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require base
- *= require layout
- *= require skeleton
  *= require_tree .
  */
 .tweet {
@@ -19,7 +16,8 @@
 }
 
 .top-container {
-  margin-top: 5px;
+  margin-top: 10px;
+  padding-right: 15px;
 }
 
 .nav-container {
@@ -27,18 +25,64 @@
   white-space: nowrap;
 }
 
-#nav1 {
-  text-decoration: none;
-}
-
-#nav2 {
-  text-decoration: none;
-}
-
-#nav3 {
-  text-decoration: none;
-}
-
 .date {
   font-size: 10px;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 850px;
+  text-decoration: none;
+}
+
+.blog-body {
+  margin-right: 5px;
+}
+
+.hideable {
+  background: #FFFFFF;
+  margin-top: 5px;
+}
+
+.left-tab {
+  margin-left: 10px;
+}
+
+.home {
+  margin-bottom: 10px;
+}
+
+.profile {
+  font-size: 18px;
+  color: #000000;
+  font-family: "Arial Black", sans-serif;
+  font-weight: normal;
+}
+
+.right-tab {
+  margin-right: 15px;
+}
+
+.page-container {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  box-shadow: 0px 0px 3pt 2pt;
+  background: #fff;
+}
+
+.master {
+  background: #F0F8FF
+}
+
+#layout {
+  padding-right: 15px;
 }
