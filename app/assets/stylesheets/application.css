@@ -64,8 +64,8 @@
 .profile {
   font-size: 18px;
   color: #000000;
-  font-family: "Arial Black", sans-serif;
-  font-weight: normal;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 500;
 }
 
 .right-tab {
@@ -85,4 +85,15 @@
 
 #layout {
   padding-right: 15px;
+}
+
+.bio {
+  font-size: 10px;
+  font-weight: lighter;
+  font-family: "Helvetica", sans-serif;
+  margin-bottom: 10px;
+}
+
+.landing-content {
+  padding-top: 50px;
 }
