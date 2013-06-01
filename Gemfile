@@ -6,7 +6,8 @@ gem 'pg'
 gem 'thin'
 gem 'disqus'
 gem 'skeleton-rails'
-
+gem 'will_paginate', '~> 3.0.4'
+gem 'devise'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'

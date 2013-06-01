@@ -1,4 +1,6 @@
 MyBlog::Application.routes.draw do
   root :to => 'pages#landing'
-  resources :blog, :only => ["index", "show"]
+  resources :blog
+  devise_for :users, :controllers => {:registrations => "registrations"}
+  resources :users
 end

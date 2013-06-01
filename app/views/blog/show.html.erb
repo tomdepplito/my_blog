@@ -7,6 +7,9 @@
           <div class = 'title'>
             <div class = 'ten columns'>
               <h1><%= @blog.title %></h1>
+              <div class = 'date'>
+                <%= date(@blog.created_at) %>
+              </div>
             </div>
           </div>
         </span>
@@ -15,12 +18,6 @@
 
     <div class = 'container'>
       <div class = 'right-tab'>
-        <div class = 'ten columns'>
-          <div class = 'date'>
-            <%= date(@blog.created_at) %>
-          </div>
-          <%= render 'layouts/tweet_button' %>
-        </div>
         <div class = 'blog-body'>
           <div class = 'ten columns'>
             <%= @blog.body.html_safe %>
@@ -28,8 +25,19 @@
         </div>
       </div>
 
+    <div class = 'container'>
+      <div class = 'ten columns'>
+        <div class = 'center more-posts'>
+          <%= link_to 'More Posts', blog_index_path %>
+        </div>
+      </div>
+    </div>
+
       <div class = 'container'>
         <div class = 'ten columns'>
+          <div class = 'ten columns'>
+            <%= render 'layouts/tweet_button' %>
+          </div>
           <div id="disqus_thread"></div>
           <script type="text/javascript">
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */

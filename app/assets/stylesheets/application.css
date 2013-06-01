@@ -27,6 +27,7 @@
 
 .date {
   font-size: 10px;
+  text-align: center;
 }
 
 .center {
@@ -37,11 +38,6 @@
 .title {
   font-size: 20px;
   font-weight: bold;
-}
-
-.container {
-  max-width: 850px;
-  text-decoration: none;
 }
 
 .blog-body {
@@ -96,4 +92,9 @@
 
 .landing-content {
   padding-top: 50px;
+}
+
+.more-posts {
+  font-size: 16px;
+  text-decoration: underline;
 }

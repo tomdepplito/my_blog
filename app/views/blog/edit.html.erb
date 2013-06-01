@@ -1,0 +1,16 @@
+<div class = 'container'>
+  <div class = 'ten columns'>
+    <%= form_for @blog, :url => url_for(:controller => 'blog', :action => 'update') do |f| %>
+      <%= f.label "Title:" %>
+      <%= f.text_field :title %>
+
+      <%= f.label "SEO URL:" %>
+      <%= f.text_field :seo_url %>
+
+      <%= f.label "Body:" %>
+      <%= f.text_area :body %>
+
+      <%= f.submit %>
+    <% end %>
+  </div>
+</div>
