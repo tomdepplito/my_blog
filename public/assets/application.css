@@ -1576,7 +1576,7 @@ a .icon-flip-vertical:before {
 }
 
 .landing-content {
-  padding-top: 50px;
+  margin-top: 10px;
 }
 
 .more-posts {
@@ -1650,7 +1650,7 @@ a .icon-flip-vertical:before {
 /* #Basic Styles
 ================================================== */
   body {
-    background: #D0D0D0;
+    background: #FFFFFF;
     font: 12px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #000000;
     -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -1661,8 +1661,8 @@ a .icon-flip-vertical:before {
 /* #Typography
 ================================================== */
   h1, h2, h3, h4, h5, h6 {
-    color: #666666;
-    font-family: "Helvetica", sans-serif;
+    color: #000000;
+    font-family: "Orienta", sans-serif;
     font-weight: 500; 
     letter-spacing: -1px; 
     text-align: center; }
