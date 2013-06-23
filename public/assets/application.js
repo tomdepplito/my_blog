@@ -10019,8 +10019,10 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 function hideDiv() {
   if ($(window).width() < 770) {
     $('.hideable').hide();
+    $('.body-wrapper').css({"overflow":"auto", "width":"100%", "padding-left":"0"})
   } else {
     $('.hideable').show();
+    $('.body-wrapper').css({"overflow":"hidden", "width":"", "padding-left":"230px"})
   }
 }
 

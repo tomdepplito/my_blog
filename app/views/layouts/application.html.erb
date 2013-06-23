@@ -8,7 +8,10 @@
 </head>
 <body>
   <div class = 'container'>
-    <%= yield %>
+    <%= render '/shared/icons' %>
+    <div class = 'body-wrapper'>
+      <%= yield %>
+    </div>
   </div>
 </body>
 </html>

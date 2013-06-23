@@ -1529,8 +1529,9 @@ a .icon-flip-vertical:before {
 }
 
 .hideable {
-  background: #FFFFFF;
   margin-top: 5px;
+  position: fixed;
+  z-index: 1;
 }
 
 .left-tab {
@@ -1589,6 +1590,11 @@ a .icon-flip-vertical:before {
 
 .icon-spacer {
   margin: 0 3px 0 3px;
+}
+
+.body-wrapper {
+  padding-left: 230px;
+  overflow: hidden;
 }
 /*
 * Skeleton V1.2
