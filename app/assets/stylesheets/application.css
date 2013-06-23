@@ -8,6 +8,9 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
+ *
+ *= require font-awesome
+ *
  *= require_self
  *= require_tree .
  */
@@ -45,8 +48,9 @@
 }
 
 .hideable {
-  background: #FFFFFF;
   margin-top: 5px;
+  position: fixed;
+  z-index: 1;
 }
 
 .left-tab {
@@ -91,10 +95,23 @@
 }
 
 .landing-content {
-  padding-top: 50px;
+  margin-top: 10px;
 }
 
 .more-posts {
   font-size: 16px;
   text-decoration: underline;
+}
+
+.side-bar {
+  text-align: center;
+}
+
+.icon-spacer {
+  margin: 0 3px 0 3px;
+}
+
+.body-wrapper {
+  padding-left: 230px;
+  overflow: hidden;
 }
