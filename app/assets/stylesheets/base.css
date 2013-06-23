@@ -77,7 +77,7 @@
   h6 { font-size: 14px; line-height: 21px; }
   .subheader { color: #777; }
 
-  p { margin: 0 0 15px 0; }
+  p { margin: 0 0 15px 0; max-width: 450px; }
   p img { margin: 0; }
   p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
@@ -92,7 +92,7 @@
   blockquote cite:before { content: "\2014 \0020"; }
   blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
 
-  hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 25px; height: 0; }
+  hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0px 10px 0px; height: 0; }
 
 
 /* #Links

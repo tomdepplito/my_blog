@@ -56,6 +56,8 @@ GEM
     factory_girl_rails (4.1.0)
       factory_girl (~> 4.1.0)
       railties (>= 3.0.0)
+    font-awesome-rails (3.2.1.1)
+      railties (>= 3.2, < 5.0)
     hike (1.2.2)
     i18n (0.6.4)
     journey (1.0.4)
@@ -152,6 +154,7 @@ DEPENDENCIES
   devise
   disqus
   factory_girl_rails (~> 4.0)
+  font-awesome-rails
   jquery-rails
   pg
   rails (= 3.2.11)
